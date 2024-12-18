@@ -25,7 +25,7 @@ with tab1:
 
     # Afficher le dataframe dans streamlit
     st.dataframe(df)
-
+    
     # Charger le dataframe dans duckdb
     st.write(conn.execute(sql_input))
 
